@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>霞客游记</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- js -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- //js -->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+</head>
+
+<body>
+<!-- banner -->
+<div class="banner">
+    <div class="container">
+        <div class="banner_top">
+        </div>
+        <nav class="navbar navbar-default">
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li style="float: left;">
+                        <a href="###" class="">霞客游记</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+
+        </nav>
+        <div class="logo">
+            <!--<a href="index.html">my travel
+                <span style="padding-top: 15px">&nbsp;</span>
+            </a>-->
+        </div>
+        <div class="dummy_text">
+            <p style="padding-top: 170px">我曾经跨过山和大海，也穿过人山人海</p>
+            <p id="noExtension" style="display: none">请安装
+                <a target="_blank"
+                   href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a> 再使用</p>
+        </div>
+    </div>
+</div>
+<!-- //banner -->
+<div id="info" class="portfolio" style="padding:4em 0 1.5em 0">
+    <div class="container">
+    </div>
+</div>
+<div class="features" style="padding: 1.5em 0">
+    <div class="container">
+        <div style="text-align: center;color:#313670;font-size: 18px">
+            山海游记是一个基于新一代区块链公链NAS的个人游记记录网站，这里你可以轻松记录、分享、回忆.
+        </div>
+        <div class="services-grids">
+            <div class="col-md-4 services-grid">
+                <div class="col-xs-12 services-grid-right text-center">
+                    <img src="images/t2.png" style="height: 60px;">
+                    <h4>简单</h4>
+                    <p>基于钱包地址，无需注册
+                        <br> 快捷记录
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-4 services-grid">
+                <div class="col-xs-12 services-grid-right text-center">
+                    <img src="images/t3.png" style="height: 60px;">
+                    <h4>隐私</h4>
+                    <p>免实名档案，保证隐私
+                        <br> 永远不可篡改
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-4 services-grid">
+                <div class="col-xs-12 services-grid-right text-center">
+                    <img src="images/t1.png" style="height: 60px;">
+                    <h4>安全</h4>
+                    <p>基于新一代公链星云链加密
+                        <br> 数据加密安全
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="slider">
+    <div class="container">
+        <div class="sliderfig">
+            <div class="nbs-flexisel-container">
+                <div class="nbs-flexisel-inner">
+                    <ul id="flexiselDemo1" class="nbs-flexisel-ul" style="left: -351.09px; display: block;">
+
+                        <li class="nbs-flexisel-item" style="width: 235px;">
+                            <div class="sliderfig-grids" style="padding: 10px">
+                                <div class="sliderfig-grid">
+                                    <img src="images/9.jpg" alt=" " class="img-responsive" style="border-radius: 10px;">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nbs-flexisel-item" style="width: 235px;">
+                            <div class="sliderfig-grids" style="padding: 10px">
+                                <div class="sliderfig-grid">
+                                    <img src="images/10.jpg" alt=" " class="img-responsive" style="border-radius: 10px;">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nbs-flexisel-item" style="width: 235px;">
+                            <div class="sliderfig-grids" style="padding: 10px">
+                                <div class="sliderfig-grid">
+                                    <img src="images/12.jpg" alt=" " class="img-responsive" style="border-radius: 10px;">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nbs-flexisel-item" style="width: 235px;">
+                            <div class="sliderfig-grids" style="padding: 10px">
+                                <div class="sliderfig-grid">
+                                    <img src="images/14.jpg" alt=" " class="img-responsive" style="border-radius: 10px;">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="nbs-flexisel-nav-left" style="top: 63px;"></div>
+                    <div class="nbs-flexisel-nav-right" style="top: 63px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 我的旅程 -->
+<div id="myTrip" class="portfolio" style="padding:4em 0 1.5em 0">
+    <div class="container">
+        <h3>我的游记</h3>
+
+        <div id="createAccount" class="main" style="text-align: center;padding: 5em 0">
+
+            <div class="more m2">
+                <a class="btn ef6" href="javascript:void(0)">开启</a>
+            </div>
+        </div>
+
+        <div id="app" class="travel-content" style="display: none;">
+            <div class="item" v-for="l in list">
+                <div class="date" v-html="l.date+'：'+l.addr"></div>
+                <div class="content" v-html="l.content"></div>
+                <img :src="l.img" alt="">
+            </div>
+        </div>
+
+        <!-- 表单 -->
+
+
+        <form class="form-horizontal" style="margin-top: 80px;display: none;">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">地点</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="tripAddr" placeholder="旅程地点">
+                </div>
+                <label class="col-sm-2 control-label">旅程时间</label>
+                <div class="col-sm-4">
+                    <input type="date" class="form-control" id="tripDate" placeholder="请选择时间">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">封面url</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="imgUrl" placeholder="图片url（选填）">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">详细记录</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="tripContent" rows="10" placeholder="写下你的记录"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-1">
+                    <button type="button" id="push" class="btn btn-default">保存</button>
+                </div>
+                <!--        <div class="col-sm-2">
+                            <button type="button" id="share" class="btn btn-default">分享</button>
+                        </div>-->
+            </div>
+        </form>
+
+    </div>
+</div>
+<!-- contact -->
+<div class="contact" id="contact" style="padding: 0 0 5em 0">
+    <div class="container">
+        <!-- footer -->
+        <div class="footer-copy">
+            <p>Copyright &copy; 2018.基于新一代区块链公链
+                <a href="https://nebulas.io/" target="_blank">NAS</a>&nbsp;&nbsp;&nbsp;
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="js/bootstrap.js"></script>
+<script>
+    $('a[href*=#]').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var $target = $(this.hash);
+            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+            if ($target.length) {
+                var targetOffset = $target.offset().top;
+                $('html,body').animate({
+                    scrollTop: targetOffset
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
+<script src=js/nebPay.js></script>
+<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    $(function () {
+        var NebPay = require("nebpay");
+        var nebPay = new NebPay();
+
+        var dappAddress = "n1kT95z2SAtKe367SNdZBhmPpLunN9oMSQw";
+        //检查扩展是否已安装
+        //如果安装了扩展，var“webExtensionWallet”将被注入到web页面中1
+        setTimeout(function () {
+            if (typeof (webExtensionWallet) === "undefined") {
+                //alert ("扩展钱包未安装，请先安装.")
+                $("#noExtension").show();
+            }
+        }, 500);
+
+        var hasAccount = false;
+
+        function searchDate() {
+            var to = dappAddress;
+            var value = "0";
+            var callFunction = "get";
+            var callArgs = [];
+            //callArgs.push(token);
+            nebPay.simulateCall(to, value, callFunction, JSON.stringify(callArgs), {
+                listener: cbSearch
+            });
+        }
+
+        searchDate();
+        setInterval(function () {
+            searchDate();
+        }, 10 * 1000);
+
+        $('#createAccount').on('click', function () {
+            $(this).hide();
+            searchDate();
+            $('.form-horizontal').show();
+            hasAccount = true;
+        });
+
+        function cbSearch(resp) {
+            var result = resp.result
+            if (result === 'null' || result == '') {
+                if (!hasAccount) {
+                    $('#createAccount').show();
+                }
+            } else {
+                $('#createAccount').hide();
+                $('.form-horizontal').show();
+                var resultObj = JSON.parse(result);
+                var len = resultObj.addr.split('|-').length;
+                var obj = [];
+                for (var i = 0; i < len; i++) {
+                    var temp = {
+                        date: resultObj.date.split('|-')[i],
+                        addr: resultObj.addr.split('|-')[i],
+                        content: resultObj.content.split('|-')[i],
+                        img: resultObj.img.split('|-')[i],
+                    }
+                    obj.push(temp);
+                }
+                Vue.set(app, 'list', obj);
+                $('#app').show();
+            }
+        }
+
+        $("#push").click(function () {
+            var imgUrl = $('#imgUrl').val();
+            var tripAddr = $('#tripAddr').val();
+            var tripDate = $('#tripDate').val();
+            var tripContent = $('#tripContent').val();
+            if (tripAddr == '') {
+                layer.msg('地点不能为空');
+                return;
+            } else if (tripDate == '') {
+                layer.msg('时间不能为空');
+                return;
+            } else if (tripContent == '') {
+                layer.msg('内容不能为空');
+                return;
+            }
+            var to = dappAddress;
+            var value = "0";
+            var callFunction = "save"
+            var callArgs = [];
+            callArgs.push(tripDate.toString());
+            callArgs.push(tripAddr.toString());
+            callArgs.push(tripContent.toString());
+            callArgs.push(imgUrl.toString());
+            nebPay.call(to, value, callFunction, JSON.stringify(callArgs), {
+                listener: cbPush
+            });
+        });
+
+        function cbPush(resp) {
+            console.log("response of push: " + resp)
+        }
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                list: []
+            }
+        });
+
+
+        $("#flexiselDemo1").flexisel({
+            visibleItems: 4,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 3000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 3
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3
+                }
+            }
+        });
+    })
+</script>
+
+
+</body>
+
+</html>
