@@ -24,7 +24,7 @@ body a:hover{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:700px;
+	min-height:600px;
 }
 .banner_top {
     margin: 2em 0 3em;
@@ -1735,7 +1735,7 @@ ul.wmuSliderPagination {
 		margin: 6em 0 4em;
 	}
 	.banner {
-		min-height: 670px;
+		min-height: 600px;
 	}
 	.banner-bottom-position-grid-left-pos {
 		right: -70%;
